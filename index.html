@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>--Cadastro refugiada--</title>
+<meta charset="utf-8" />
+ <link href="style.css" rel="stylesheet" media="all" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+<form name="meu_form">
+
+  <h1>Cadastro (Refugiada)</h1>
+
+<p>
+  <label for="nome">Nome </label>
+  <input type="text" id="nome" placeholder="Nome" required="required" name="nome" pattern="([aA-zZ]+)" />
+</p>
+
+<p>
+  <label for="senha">Senha</label>
+  <input type="password" id="senha" placeholder="Senha" required="required" name="senha"  />
+</p>
+  
+<p>
+  <label for="fone">Fone</label>
+  <input type="number" id="fone" placeholder="(xx)xx-xx-xx-xx" required="required" name="fone" />
+</p>
+
+<p>
+  <label for="email">Email</label>
+  <input type="email" id="email" placeholder="Email" required="required" name="email" />
+</p>
+
+<p>
+ <label for="passaporte">Passaporte</label>
+  <input type="number" id="passaporte" placeholder="Passaporte" required="required" name="passaporte" />
+</p>
+  
+<p>
+  <label for="nascimento">Data de nascimento</label>
+  <input type="date" id="nascimento" required="required" name="Data_nascimento" min= "1900-12-30" max="2003-12-30" />
+</p>
+
+
+<p>
+  <label for="PCD">PCD</label>
+  <input id="PCD" style="display:none">
+<SELECT NAME = "PCD" SIZE=1>
+<OPTION>Sim
+<OPTION>Não
+</SELECT>
+</p>
+  
+<p>
+  <label for="Estado_civil">Estado Civil</label>
+  <input id="Estado_civil" style="display:none">
+<SELECT NAME = "Estado_civil" SIZE=1>
+<OPTION>Solteira
+<OPTION>Casada
+</SELECT>
+</p>
+  
+  <p>
+  <label for="Filhos">Possui filhos?</label>
+  <input id="Filhos" style="display:none">
+<SELECT NAME = "Filhos" SIZE=1>
+<OPTION>Sim
+<OPTION>Não
+</SELECT>
+</p>
+
+<p>
+    <label for="imagemperfil">Imagem de perfil <input type="file" name="imagemperfil" required="required" id="imagemperfil"></label>
+</p>
+
+  
+  <textarea placeholder="Informações adicionais"></textarea>
+
+  <input type="submit" class="enviar" onclick="Enviar();"  value="Enviar" id="Enviarid" />
+</form>
+</body>
+</html>
