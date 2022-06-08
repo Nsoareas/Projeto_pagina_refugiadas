@@ -1,0 +1,72 @@
+body {background:
+url('https://macmagazine.com.br/wp-content/uploads/2018/05/17-bandeira-ucrania.jpg')    
+}
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    height: auto;
+  width: 100%;
+  margin: auto;
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    background-color: #0044cc;
+    max-width: 500px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    flex-wrap: wrap;
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    color: #fbff00;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+}
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+
+
+
+
+.enviar {
+    background-color: #ffffff;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: #000000;
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
